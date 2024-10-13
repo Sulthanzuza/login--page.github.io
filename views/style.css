@@ -1,0 +1,51 @@
+
+/* General body and html styling */
+body, 
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set the background image */
+body {
+  background: url('background.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+/* Container for the login box */
+.login-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the login box with glassmorphism effect */
+.login-box {
+  backdrop-filter: blur(10px) brightness(100%);
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity to your liking */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  color: rgb(226, 226, 226);
+  font-family: monospace;
+}
+
+/* Form label styling */
+.form-label {
+  font-weight: bold;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
